@@ -1,0 +1,222 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* styling the navigation bar */
+#main{
+    position: sticky;
+    top: 0px;
+}
+#navbar{
+    display: flex;
+    background-color: #ff7600;
+}
+#ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 10px;
+}
+#ul li{
+    list-style: none;
+    padding: 0px 10px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+#ul li:hover{
+    background-color: orangered;
+}
+#ul li:active{
+    background-color: orange;
+}
+#ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+#img img{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    height: 45px;
+}
+#icons i{
+    margin: 0px 15px;
+}
+/*styling the footer*/
+#main2{
+    position: sticky;
+    bottom: 0px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7600;
+    height: 33px;
+}
+#footer div{
+    font-weight: bolder;
+    color: white;
+}
+/*styling the banner*/
+#lbanner{
+    height: 100px;
+    background: url('../images/banner2.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lbanner header{
+    color: white;
+    font-size: 40px;
+}
+#lbanner p{
+    color: white;
+    font-size: 20px;
+}
+/*styling the form section*/
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebd5ae;
+}
+#formhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #ebd5ae;
+    width: 100%;
+    padding: 15px 0px;
+}
+form{
+    border: 2px solid #15384c;
+    font-size: 22px;
+    width: 56%;
+    margin: 10px;
+    padding: 26px;
+    border-radius: 15px;
+    background-color: #fddca1;
+}
+#inputs{
+    display: flex;
+}
+#radio{
+    display: flex;
+}
+.one{
+    width: 222px;
+    height: 25px;
+    outline: none;
+}
+.two{
+    width: 130px;
+    height: 25px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #ffd284;
+}
+.two:hover{
+    background-color: #ff7600;
+    color: white;
+}
+.two:active{
+    background-color: orange;
+}
+.three{
+    padding: 12px;
+}
+input{
+    border-radius: 7px;
+    font-size: 16px;
+    padding-left: 2px;
+    background-color: #ffd284;
+}
+/*styling the custom list that will be created on adding a book*/
+table{
+    border: 2px solid #15384c;
+    background-color: #fddca1;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+
+#header2l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #ebd5ae;
+    width: 100%;
+    padding-top: 15px;
+}
+#mylist{
+    background-color: #ebd5ae;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #ff7600;
+    color: white;
+    outline: none;
+    width: 80px;
+    height: 24px;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: rgb(253, 77, 54);
+}
+.btn:active{
+    background-color: red;
+}
+th{
+    padding: 8px 30px;
+    font-size: 23px;
+    background-color: #ffb42a;
+}
+th:hover{
+    background-color: orange;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+    padding: 4px 6px;
+    background-color: #ffcc6f;
+}
+td:hover{
+    background-color: rgb(253, 195, 86);
+}
+/*styling an alert div that will be added/removed to/from html through javascript*/
+#alert{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.success{
+    background-color: rgb(176, 240, 176);
+    color: green;
+}
+.failure{
+    background-color: rgb(255, 193, 193);
+    color: red;
+}

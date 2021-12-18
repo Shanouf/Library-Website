@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanouf's Library | My-Book-List</title>
+    <link rel="stylesheet" href="../css/list.css">
+</head>
+<body>
+    <div id="main">
+        <nav id="navbar">
+            <div id="img">
+                <img src="../images/logo.png" alt="Logo">
+            </div>
+            <div id="anchors">
+                <ul id="ul">
+                    <li class="list"><a href='home.html'>Home</a></li>
+                    <li class="list"><a href="list.html">My-Book-List</a></li>
+                </ul>
+            </div>
+            <div id="icons">
+                <i class="fa fa-book"></i>
+                <i class="fa fa-codepen"></i>
+                <i class="fa fa-newspaper o"></i>
+                <i class="fa fa-graduation-cap"></i>
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <div id="lbanner">
+        <header id="lheader">
+            Make your own personalized list of your favourite books
+        </header>
+        <p>
+            Keep a record of the books you are most interested in reading so you don't miss on them!
+        </p>
+    </div>
+    <hr>
+    <!-- alert div that will be inserted/removed from the dom through javascript -->
+    <div id="message">
+        <!-- <div class="success" id="alert">
+            Message will be written here!
+         </div> -->
+    </div>     
+    <div id="form">
+        <header id="formhead">Add a book to your list....</header>
+        <form action="#" id="listform">
+            <div class="three" id="inputs">
+                <div>
+                    <label for="input1">Book's Name:</label>
+                    <input class="one" type="text" id="input1" required>
+                </div>
+                <div>
+                    <label for="input2">Book's Author:</label>
+                    <input class="one" type="text" id="input2" required>
+                </div>
+            </div>
+            <div  class="three" id="radio">
+                <div class="div1">
+                    Type of Book:
+                </div> 
+                <div class="div2">
+                    <div>
+                        <label for="radio1">Novel</label>
+                        <input id="radio1" type="radio" name="type" value="novel">
+                    </div>
+                    <div><label for="radio2">Fiction</label>
+                        <input id="radio2" type="radio" name="type" value="fiction">
+                    </div>
+                    <div>
+                        <label for="radio3">Horror</label>
+                        <input type="radio" id="radio3" name="type" value="horror">
+                    </div>
+                </div>    
+            </div> 
+            <div class="three" id="formsubmit">
+                Do you want to add the book to your list: <input id="submit" class="two" value="Add the Book" type="reset"> <input value="Don't Add the Book" id="reset" class="two" type="reset">
+            </div>
+        </form>
+    </div>
+    <div id="mylist">
+        <header id="header2l">Your Custom Book List</header>
+        <div id="table">
+            <table id="tab">
+                <thead id="thead">
+                    <tr>
+                        <th>Book's Name</th>
+                        <th>Book's Author</th>
+                        <th>Type of Book</th>
+                        <th>Delete the Book</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!-- rows that will be added/removed through javascript -->
+                    <!-- <tr>
+                        <td>Alice in Wonderland</td>
+                        <td>Shanouf</td>
+                        <td>Novel</td>
+                        <td><button id="btn" class="btn">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Shanouf's House</td>
+                        <td>Shakespear</td>
+                        <td>Horror</td>
+                        <td><button id="btn" class="btn">Delete</button></td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="main2">
+        <footer id="footer">
+            <div>
+                Shanouf's Library &copy; 2003-2030 | www.shanlibrary.co.in | All Rights Reserved
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/dfb98f70e1.js" crossorigin="anonymous"></script>
+    <script src="../javascript/list.js"></script>
+</body>
+</html>
